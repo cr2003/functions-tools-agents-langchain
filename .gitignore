@@ -1,1 +1,17 @@
+# Entorno virtual y dependencias
+.venv/
+__pycache__/
+*.py[cod]
+
+# Configuración y secretos (Muy importante)
 .env
+
+# Archivos temporales de Jupyter
+.ipynb_checkpoints/
+
+# Historial de python (si borraste el archivo .python-version ya no es necesario, pero es buena práctica)
+.python-version
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
